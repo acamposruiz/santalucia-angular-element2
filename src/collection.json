@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "santalucia-angular-element": {
+      "description": "A blank schematic.",
+      "factory": "./santalucia-angular-element/index#santaluciaAngularElement"
+    }
+  }
+}
