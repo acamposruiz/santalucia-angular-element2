@@ -3,7 +3,8 @@
   "schematics": {
     "santalucia-angular-element": {
       "description": "A blank schematic.",
-      "factory": "./santalucia-angular-element/index#santaluciaAngularElement"
+      "factory": "./santalucia-angular-element/index#santaluciaAngularElement",
+      "schema": "./santalucia-angular-element/schema.json"
     }
   }
 }
