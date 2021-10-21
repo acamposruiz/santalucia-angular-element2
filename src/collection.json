@@ -1,6 +1,124 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
+    "ng-new": {
+      "factory": "../node_modules/@schematics/angular/ng-new",
+      "schema": "../node_modules/@schematics/angular/ng-new/schema.json",
+      "description": "Create an Angular workspace."
+    },
+    "workspace": {
+      "factory": "../node_modules/@schematics/angular/workspace",
+      "schema": "../node_modules/@schematics/angular/workspace/schema.json",
+      "description": "Create an Angular workspace.",
+      "hidden": true
+    },
+    "application": {
+      "aliases": ["app"],
+      "factory": "../node_modules/@schematics/angular/application",
+      "schema": "../node_modules/@schematics/angular/application/schema.json",
+      "description": "Create an Angular application."
+    },
+    "module": {
+      "aliases": ["m"],
+      "factory": "../node_modules/@schematics/angular/module",
+      "description": "Create an Angular module.",
+      "schema": "../node_modules/@schematics/angular/module/schema.json"
+    },
+    "service-worker": {
+      "aliases": ["serviceWorker"],
+      "factory": "../node_modules/@schematics/angular/service-worker",
+      "description": "Initializes a service worker setup.",
+      "schema": "../node_modules/@schematics/angular/service-worker/schema.json"
+    },
+    "e2e": {
+      "factory": "../node_modules/@schematics/angular/e2e",
+      "schema": "../node_modules/@schematics/angular/e2e/schema.json",
+      "description": "Create an Angular e2e application.",
+      "hidden": true
+    },
+    "class": {
+      "aliases": ["cl"],
+      "factory": "../node_modules/@schematics/angular/class",
+      "description": "Create a class.",
+      "schema": "../node_modules/@schematics/angular/class/schema.json"
+    },
+    "component": {
+      "aliases": ["c"],
+      "factory": "../node_modules/@schematics/angular/component",
+      "description": "Create an Angular component.",
+      "schema": "../node_modules/@schematics/angular/component/schema.json"
+    },
+    "directive": {
+      "aliases": ["d"],
+      "factory": "../node_modules/@schematics/angular/directive",
+      "description": "Create an Angular directive.",
+      "schema": "../node_modules/@schematics/angular/directive/schema.json"
+    },
+    "enum": {
+      "aliases": ["e"],
+      "factory": "../node_modules/@schematics/angular/enum",
+      "description": "Create an enumeration.",
+      "schema": "../node_modules/@schematics/angular/enum/schema.json"
+    },
+    "guard": {
+      "aliases": ["g"],
+      "factory": "../node_modules/@schematics/angular/guard",
+      "description": "Create a guard.",
+      "schema": "../node_modules/@schematics/angular/guard/schema.json"
+    },
+    "resolver": {
+      "aliases": ["r"],
+      "factory": "../node_modules/@schematics/angular/resolver",
+      "description": "Create a resolver.",
+      "schema": "../node_modules/@schematics/angular/resolver/schema.json"
+    },
+    "interceptor": {
+      "factory": "../node_modules/@schematics/angular/interceptor",
+      "description": "Create an interceptor.",
+      "schema": "../node_modules/@schematics/angular/interceptor/schema.json"
+    },
+    "interface": {
+      "aliases": ["i"],
+      "factory": "../node_modules/@schematics/angular/interface",
+      "description": "Create an interface.",
+      "schema": "../node_modules/@schematics/angular/interface/schema.json"
+    },
+    "pipe": {
+      "aliases": ["p"],
+      "factory": "../node_modules/@schematics/angular/pipe",
+      "description": "Create an Angular pipe.",
+      "schema": "../node_modules/@schematics/angular/pipe/schema.json"
+    },
+    "service": {
+      "aliases": ["s"],
+      "factory": "../node_modules/@schematics/angular/service",
+      "description": "Create an Angular service.",
+      "schema": "../node_modules/@schematics/angular/service/schema.json"
+    },
+    "universal": {
+      "factory": "../node_modules/@schematics/angular/universal",
+      "description": "Create an Angular universal app.",
+      "schema": "../node_modules/@schematics/angular/universal/schema.json",
+      "hidden": true
+    },
+    "app-shell": {
+      "aliases": ["appShell"],
+      "factory": "../node_modules/@schematics/angular/app-shell",
+      "description": "Create an app shell.",
+      "schema": "../node_modules/@schematics/angular/app-shell/schema.json"
+    },
+    "library": {
+      "aliases": ["lib"],
+      "factory": "../node_modules/@schematics/angular/library",
+      "schema": "../node_modules/@schematics/angular/library/schema.json",
+      "description": "Generate a library project for Angular."
+    },
+    "web-worker": {
+      "aliases": ["webWorker"],
+      "factory": "../node_modules/@schematics/angular/web-worker",
+      "schema": "../node_modules/@schematics/angular/web-worker/schema.json",
+      "description": "Create a Web Worker."
+    },
     "santalucia-angular-element": {
       "description": "A blank schematic.",
       "factory": "./santalucia-angular-element/index#santaluciaAngularElement",

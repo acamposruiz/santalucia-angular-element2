@@ -1,4 +1,4 @@
-import { Tree } from '@angular-devkit/schematics';
+/* import { Tree } from '@angular-devkit/schematics';
 import { SchematicTestRunner } from '@angular-devkit/schematics/testing';
 import * as path from 'path';
 
@@ -14,3 +14,4 @@ describe('santalucia-angular-element', () => {
     expect(tree.files).toEqual([]);
   });
 });
+ */
